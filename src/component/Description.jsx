@@ -10,7 +10,7 @@ function Description({match , movie}) {
         <div>
             <NavBar/>
             
-                <div>
+                <div className="container-dp">
                     <div>
                         <iframe width="900" height="600" src={films.posterURL}
                             title={films.title} frameBorder="0" 
