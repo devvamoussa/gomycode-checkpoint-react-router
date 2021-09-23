@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(17, 17, 17) !important;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    height: 50px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar ul li:hover{
+    color: rgb(212, 212, 212);
+    font-size: 1.3rem;
+    transition: ease-in-out .4s;
+    
+    
+
+}
+.App{
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    width: 95px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type=text]:focus {
+    width: 450px;
+    height: 40px;
+    margin: 20px;
+    background-color: #f1f1f1;
+ }
+
+.content iframe:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out .4s;
+}
+
